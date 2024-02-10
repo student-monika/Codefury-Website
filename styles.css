@@ -1,0 +1,275 @@
+.menu a {
+    font-family: 'YourFont', cursive; 
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.welcome-message {
+    text-align: center;
+    color: #152bf0;
+    background-color: white; /* Background color */
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #2714d1; /* Border style, width, and color */
+    border-radius: 10px; /* Rounded corners */
+}
+.welcome-message h1 {
+    font-family: 'Font2', cursive; 
+}
+
+
+.welcome-message p {
+    font-family: 'Font2', cursive; 
+    font-size: 25px;
+}
+
+
+
+.welcome-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    padding: 20px;
+    text-align: center;
+}
+
+
+.welcome-block img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+
+.welcome-block .quote {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2714d1; /* Text color */
+    font-family: 'YourFont', cursive;
+}
+
+
+header {
+    background-color: #2c3ccf; 
+    color: white; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo a {
+    text-decoration: ivory;
+    font-family: 'Font2', cursive;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo img {
+    width: 100px; 
+    height: 100px; 
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+} 
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Responsive navigation menu */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 20px; 
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px; 
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+form label, select {
+    display:flex;
+    margin-bottom: 10px;
+}
+#start-quiz {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.quiz-intro {
+    text-align: center;
+    background-color: #2714d1; /* Background color for the intro box */
+    color :white; /* Text color */
+    font-size: 20px;
+    font-family: "Your Font Name", cursive; 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(248, 246, 250, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quiz-intro h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: "Your Font Name", cursive; 
+}
+#submit-button {
+    background-color: white;
+    color: #2714d1;
+    font-family: "Your Font Name", cursive;
+    font-size: 20px; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#challenges h1 {
+    font-family: "Your Font Name", cursive; 
+    color: #2714d1; 
+    font-size: 30px; 
+    font-weight: bold; 
+}
+.card {
+    background-color: #f5f5f5;
+    color: #2714d1;
+    font-family: "Your Font Name", cursive; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px; /* Gap between cards */
+    padding: 20px; /* Padding around the container */
+    background-color: #2714d1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: white;
+    color: #2714d1;
+    font-family: "Your Font Name", cursive;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+
+
+
